@@ -1,5 +1,6 @@
 table {
   border-collapse: collapse;
+  text-align: center;
   table-layout: auto;
   margin-right: auto;
   margin-left: auto;
