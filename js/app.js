@@ -16,6 +16,11 @@ for(let i = 0; i < tableData.length; i++) {
 
     } );
 }
+
+// possible code for keeping track of clicked events
+
+
+
 function toggle(td) {
     if (selectedTd) { // remove the existing rotation if any
         selectedTd.classList.remove(`rotate`);
