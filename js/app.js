@@ -1,4 +1,5 @@
 let tableData = document.querySelectorAll(`td`); // get all td elements
+let selectedTd; 
 //loop is used so there is no need to write the event listener for each td element. 
 for(let i = 0; i < tableData.length; i++) {
     tableData[i].addEventListener(`click`, (event) => {
