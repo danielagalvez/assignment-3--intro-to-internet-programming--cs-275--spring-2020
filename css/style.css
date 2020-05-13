@@ -8,6 +8,7 @@ table {
   cursor: pointer;
 }
 td {
+  border: 1px solid red;
 }
 .rotate {
   transform: rotate(180deg);
