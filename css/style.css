@@ -10,4 +10,6 @@ table {
 td {
 }
 .rotate {
+  transform: rotate(180deg);
+  transition-duration: .5s;
 }
